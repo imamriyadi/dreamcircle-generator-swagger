@@ -15,8 +15,7 @@ class generate {
         schemaTmpl.method["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"] = {}
         schemaTmpl.method["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]["type"] = "object"
         schemaTmpl.method["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]["properties"] = JSON.parse(JSON.stringify(properties, null, 2))
-        schemaTmpl.method["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]["required"] = []
-        schemaTmpl.method["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"] = {}
+        schemaTmpl.method["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"]["schema"]["required"] = [] 
         schemaTmpl.method["post"]["requestBody"]["content"]["application/json"] = {}
         schemaTmpl.method["post"]["requestBody"]["content"]["application/json"]["schema"] = {}
         schemaTmpl.method["post"]["requestBody"]["content"]["application/json"]["schema"]["type"] = "object"
