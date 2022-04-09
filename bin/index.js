@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 const yargs = require("yargs");
-var fs = require('fs');
+var fs = require('fs'); 
 const knex = require('knex');
+var path = require('path');
 const generateSwaggersss = require('./swagger/generate')
 const options = yargs
     .usage("Usage: -n <name>")
     .option("t", { alias: "table", describe: "Your table", type: "string", demandOption: true })
     .argv;
-const config = require("../dreamcircle.config");
+const config = require(`${path.resolve()}/dreamcircle.config.js`)
 const { exit } = require("process");
 const DB = knex({
     client: 'mysql',

@@ -1,6 +1,6 @@
 {
   "name": "dreamcircle-generator-swagger",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "```sh\r npm install",
   "main": "bin/index.js",
   "scripts": {
