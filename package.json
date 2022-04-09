@@ -1,13 +1,13 @@
 {
-  "name": "dreamcirelce-generator",
-  "version": "1.0.0",
-  "description": "",
+  "name": "dreamcircle-generator-swagger",
+  "version": "1.0.3",
+  "description": "```sh\r npm install",
   "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "dreamcircle": "./bin/index.js"
+    "dreamcircle": "bin/index.js"
   },
   "author": "imam",
   "license": "ISC",
@@ -16,5 +16,16 @@
     "knex": "^1.0.4",
     "mysql": "^2.18.1",
     "yargs": "^17.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imamriyadi/dreamcircle-generator-swagger.git"
+  },
+  "keywords": [
+    "swagger"
+  ],
+  "bugs": {
+    "url": "https://github.com/imamriyadi/dreamcircle-generator-swagger/issues"
+  },
+  "homepage": "https://github.com/imamriyadi/dreamcircle-generator-swagger#readme"
 }

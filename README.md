@@ -7,7 +7,7 @@ npm install
 ```
 ### install global
 ```sh
-npm install -g .
+npm install -g dreamcircle-generator-swagger
 
 ```
 
